@@ -16,13 +16,11 @@ namespace App61
         {
             InitializeComponent();
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             label1.Text = "Date : "+DateTime.Now.ToString("yyyy-MM-dd");
             label2.Text = "Time : "+DateTime.Now.ToString("HH:mm:ss");
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start();
